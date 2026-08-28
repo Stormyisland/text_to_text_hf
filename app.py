@@ -8,4 +8,8 @@ client = OpenAI(
 )
 
 completion = client.chat.completions.create(
-  model=meta-models/Muse-Glimmer-30B:together",
+  model="meta-models/Muse-Glimmer-30B:together",
+  messages=[
+    {
+      "role": "user",
+      "content":[
