@@ -13,3 +13,6 @@ completion = client.chat.completions.create(
     {
       "role": "user",
       "content":[
+        {
+          "type":"text",
+          "text":"discribe this image in one sentence.
