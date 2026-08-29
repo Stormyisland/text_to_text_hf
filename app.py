@@ -16,3 +16,4 @@ completion = client.chat.completions.create(
         {
           "type":"text",
           "text":"discribe this image in one sentence.
+          {
